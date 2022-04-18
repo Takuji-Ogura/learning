@@ -11,7 +11,7 @@ done.
 $ cd projb
 $ venv
 python -m venv env
-$ .env/bin/activate
+$ .\env\Scripts\activate
 ```
 3. パッケージ情報を復元
 ```
