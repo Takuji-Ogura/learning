@@ -1,19 +1,19 @@
 # cloneしたプロジェクトでvenvを復元して実行する方法
 
- 1.  clone
+1.  clone
 ```
 $ git clone repo projb
 Cloning into 'projb'...
 done.
 ```
- 2.  venv環境の追加とactivate
+2.  venv環境の追加とactivate
 ```
 $ cd projb
 $ venv
 python -m venv env
 $ . .env/bin/activate
 ```
- 3. パッケージ情報を復元
+3. パッケージ情報を復元
 ```
 $ pip install -r requirements.txt
 Collecting numpy==1.22.3
@@ -24,7 +24,7 @@ Installing collected packages: numpy, opencv-python
 Successfully installed numpy-1.22.3 opencv-python-4.5.5.64```
 ```
 
- 3. 実行
+4. 実行
 ```
 $ python WebcamTest.py
 ```
